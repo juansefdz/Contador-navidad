@@ -33,7 +33,7 @@ function diferenciaFechas(fecha1, fecha2) {
 
 function actualizarDiferencia() {
   let fechaInicio = new Date(); // Fecha actual
-  let fechaFin = new Date('2023-12-25T00:00:00'); // Fecha actual
+  let fechaFin = new Date('2024-12-25T00:00:00'); // Fecha actual
 
   let resultado = diferenciaFechas(fechaInicio, fechaFin);
 
