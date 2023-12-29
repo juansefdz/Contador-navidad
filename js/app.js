@@ -40,7 +40,7 @@ function actualizarDiferencia() {
 
  
   let fechaContainer = document.querySelector(".fecha");
-  fechaContainer.innerHTML = `<h3>Faltan  ${resultado.años} años, ${resultado.meses} meses, ${resultado.dias} días, con \n  ${resultado.horas}:${resultado.minutos}:${resultado.segundos} para navidad!!!</h3>`;
+  fechaContainer.innerHTML = `<h3>Faltan  ${resultado.meses} meses, ${resultado.dias} días, con \n  ${resultado.horas}:${resultado.minutos}:${resultado.segundos} para navidad!!!</h3>`;
 }
 
 // Actualizar cada segundo
